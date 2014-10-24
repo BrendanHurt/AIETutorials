@@ -1,53 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIEFramework", "AIEFramework\AIEFramework_vs2013.vcxproj", "{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0} = {5D056CED-A513-41EE-A0DD-6ECFE546F6B0}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBXLoader", "..\tools\FBXLoader\FBXLoader_vs2013.vcxproj", "{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial1", "Tutorial1\Tutorial1.vcxproj", "{2A898D6D-0B37-44A2-A67A-8159C58E4A30}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial3", "Tutorial3\Tutorial3.vcxproj", "{04C36FF8-23C5-4340-9F8A-8358E922A468}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial2", "Tutorial2\Tutorial2.vcxproj", "{61B4BB0A-5069-43E3-9A05-4E56D6D62CA9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Texturing", "Texturing\Texturing.vcxproj", "{ABA42B2C-6DB3-4F32-979E-FFBE725135C9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Particles", "Particles\Particles.vcxproj", "{88026F2B-760B-4270-A7CE-D939793125BE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial_Lighting", "Tutorial_Lighting\Tutorial_Lighting.vcxproj", "{3EF72813-8810-4531-B64F-DF823D3D31CC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial_GPUparticles", "Tutorial_GPUparticles\Tutorial_GPUparticles.vcxproj", "{3FA9376D-AE94-4FA9-A2B8-9CD4234A8E3B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial_AdvTexturing", "Tutorial_AdvTexturing\Tutorial_AdvTexturing.vcxproj", "{F7E5B4BE-271A-4A9C-97C9-1D8608AA2452}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial_AIE_GPUParticles", "Tutorial_AIE_GPUParticles\Tutorial_AIE_GPUParticles.vcxproj", "{E9467BD3-54EE-46C8-B26D-A3EB33607E45}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBD02D30-A9A5-41ED-9C12-67EC17B5C08B} = {BBD02D30-A9A5-41ED-9C12-67EC17B5C08B}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,42 +21,6 @@ Global
 		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Debug|Win32.Build.0 = Debug|Win32
 		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Release|Win32.ActiveCfg = Release|Win32
 		{5D056CED-A513-41EE-A0DD-6ECFE546F6B0}.Release|Win32.Build.0 = Release|Win32
-		{2A898D6D-0B37-44A2-A67A-8159C58E4A30}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2A898D6D-0B37-44A2-A67A-8159C58E4A30}.Debug|Win32.Build.0 = Debug|Win32
-		{2A898D6D-0B37-44A2-A67A-8159C58E4A30}.Release|Win32.ActiveCfg = Release|Win32
-		{2A898D6D-0B37-44A2-A67A-8159C58E4A30}.Release|Win32.Build.0 = Release|Win32
-		{04C36FF8-23C5-4340-9F8A-8358E922A468}.Debug|Win32.ActiveCfg = Debug|Win32
-		{04C36FF8-23C5-4340-9F8A-8358E922A468}.Debug|Win32.Build.0 = Debug|Win32
-		{04C36FF8-23C5-4340-9F8A-8358E922A468}.Release|Win32.ActiveCfg = Release|Win32
-		{04C36FF8-23C5-4340-9F8A-8358E922A468}.Release|Win32.Build.0 = Release|Win32
-		{61B4BB0A-5069-43E3-9A05-4E56D6D62CA9}.Debug|Win32.ActiveCfg = Debug|Win32
-		{61B4BB0A-5069-43E3-9A05-4E56D6D62CA9}.Debug|Win32.Build.0 = Debug|Win32
-		{61B4BB0A-5069-43E3-9A05-4E56D6D62CA9}.Release|Win32.ActiveCfg = Release|Win32
-		{61B4BB0A-5069-43E3-9A05-4E56D6D62CA9}.Release|Win32.Build.0 = Release|Win32
-		{ABA42B2C-6DB3-4F32-979E-FFBE725135C9}.Debug|Win32.ActiveCfg = Debug|Win32
-		{ABA42B2C-6DB3-4F32-979E-FFBE725135C9}.Debug|Win32.Build.0 = Debug|Win32
-		{ABA42B2C-6DB3-4F32-979E-FFBE725135C9}.Release|Win32.ActiveCfg = Release|Win32
-		{ABA42B2C-6DB3-4F32-979E-FFBE725135C9}.Release|Win32.Build.0 = Release|Win32
-		{88026F2B-760B-4270-A7CE-D939793125BE}.Debug|Win32.ActiveCfg = Debug|Win32
-		{88026F2B-760B-4270-A7CE-D939793125BE}.Debug|Win32.Build.0 = Debug|Win32
-		{88026F2B-760B-4270-A7CE-D939793125BE}.Release|Win32.ActiveCfg = Release|Win32
-		{88026F2B-760B-4270-A7CE-D939793125BE}.Release|Win32.Build.0 = Release|Win32
-		{3EF72813-8810-4531-B64F-DF823D3D31CC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3EF72813-8810-4531-B64F-DF823D3D31CC}.Debug|Win32.Build.0 = Debug|Win32
-		{3EF72813-8810-4531-B64F-DF823D3D31CC}.Release|Win32.ActiveCfg = Release|Win32
-		{3EF72813-8810-4531-B64F-DF823D3D31CC}.Release|Win32.Build.0 = Release|Win32
-		{3FA9376D-AE94-4FA9-A2B8-9CD4234A8E3B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3FA9376D-AE94-4FA9-A2B8-9CD4234A8E3B}.Debug|Win32.Build.0 = Debug|Win32
-		{3FA9376D-AE94-4FA9-A2B8-9CD4234A8E3B}.Release|Win32.ActiveCfg = Release|Win32
-		{3FA9376D-AE94-4FA9-A2B8-9CD4234A8E3B}.Release|Win32.Build.0 = Release|Win32
-		{F7E5B4BE-271A-4A9C-97C9-1D8608AA2452}.Debug|Win32.ActiveCfg = Debug|Win32
-		{F7E5B4BE-271A-4A9C-97C9-1D8608AA2452}.Debug|Win32.Build.0 = Debug|Win32
-		{F7E5B4BE-271A-4A9C-97C9-1D8608AA2452}.Release|Win32.ActiveCfg = Release|Win32
-		{F7E5B4BE-271A-4A9C-97C9-1D8608AA2452}.Release|Win32.Build.0 = Release|Win32
-		{E9467BD3-54EE-46C8-B26D-A3EB33607E45}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E9467BD3-54EE-46C8-B26D-A3EB33607E45}.Debug|Win32.Build.0 = Debug|Win32
-		{E9467BD3-54EE-46C8-B26D-A3EB33607E45}.Release|Win32.ActiveCfg = Release|Win32
-		{E9467BD3-54EE-46C8-B26D-A3EB33607E45}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

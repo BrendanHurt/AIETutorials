@@ -47,16 +47,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)..\lib\vs2013\</OutDir>
-    <IncludePath>$(FBX_SDK_DIR)\include;$(SolutionDir)../inc;$(SolutionDir)../dep/stb;$(SolutionDir)../dep/glfw/include;$(SolutionDir)../dep/glew/include;$(SolutionDir)../dep/glm;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
-    <LibraryPath>$(FBX_SDK_DIR)\lib\vs2013\x86\debug;$(SolutionDir)../lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(FBX_SDK_DIR)include;$(SolutionDir)../inc;$(SolutionDir)../dep/stb;$(SolutionDir)../dep/glfw/include;$(SolutionDir)../dep/glew/include;$(SolutionDir)../dep/glm;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(FBX_SDK_DIR)lib\vs2013\x86\debug;$(SolutionDir)../lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
     <TargetName>$(ProjectName)_d</TargetName>
     <LinkIncremental>true</LinkIncremental>
     <IntDir>$(Configuration)\vs2013\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)..\lib\vs2013\</OutDir>
-    <IncludePath>$(FBX_SDK_DIR)\include;$(SolutionDir)../inc;$(SolutionDir)../dep/stb;$(SolutionDir)../dep/glfw/include;$(SolutionDir)../dep/glew/include;$(SolutionDir)../dep/glm;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
-    <LibraryPath>$(FBX_SDK_DIR)\lib\vs2013\x86\release;$(SolutionDir)../lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(FBX_SDK_DIR)include;$(SolutionDir)../inc;$(SolutionDir)../dep/stb;$(SolutionDir)../dep/glfw/include;$(SolutionDir)../dep/glew/include;$(SolutionDir)../dep/glm;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(FBX_SDK_DIR)lib\vs2013\x86\release;$(SolutionDir)../lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
     <IntDir>$(Configuration)\vs2013\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
